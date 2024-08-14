@@ -1,0 +1,23 @@
+asgiref==3.8.1                # For ASGI support, which is useful for Django channels
+bcrypt==4.2.0                 # For password hashing, used in Django authentication
+channels==4.1.0               # To enable WebSocket support and real-time features in Django
+Django==5.1                   # Core Django framework
+django-allauth==64.0.0        # For handling authentication, registration, and account management
+django-cors-headers==4.4.0    # To handle CORS in Django, necessary if your frontend is separate
+djangorestframework==3.15.2   # Django REST framework for building APIs
+djangorestframework-simplejwt==5.3.1  # JWT authentication for Django REST framework
+pillow==10.4.0                # For image processing in Django (e.g., handling user profile images)
+python-dotenv==1.0.1          # For loading environment variables from a .env file
+requests==2.32.3              # For making HTTP requests, if needed by your application
+pymongo==4.5.0                # MongoDB driver for Python
+# Alternatively, if you choose mongoengine:
+mongoengine==0.27.0
+
+# Optional dependencies depending on your need for Google services
+google-api-core==2.19.1
+google-api-python-client==2.140.0
+google-auth==2.33.0
+google-auth-httplib2==0.2.0
+googleapis-common-protos==1.63.2
+httplib2==0.22.0
+uritemplate==4.1.1
