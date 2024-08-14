@@ -80,3 +80,9 @@ Follow these steps to set up the project on your local machine:
     **cd frontend**
     
     **npm install**
+
+## 
+8. Run Front-end and Back-end with these commands.
+
+    a. **Front-end: npm run dev**
+    b. **Back-end: python manage.py runserver**
